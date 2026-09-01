@@ -189,12 +189,14 @@ section { padding: var(--space-8) 0; }
 
 /* HERO */
 .hero {
-  position: relative; min-height: min(88vh, 820px);
+  position: relative;
+  min-height: calc(100vh - 5rem);
+  min-height: calc(100svh - 5rem);
   display: grid; place-items: center; color: var(--hero-ink); overflow: hidden;
 }
 .hero-media {
   position: absolute; inset: 0;
-  background: #2a2418 url("../images/hero-background.webp") center 28% / cover no-repeat;
+  background: #2a2418 url("../images/hero-background.webp") center 25% / cover no-repeat;
 }
 .hero-media::after {
   content: ""; position: absolute; inset: 0;
