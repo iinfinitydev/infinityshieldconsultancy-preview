@@ -1,7 +1,7 @@
 :root {
-  --bg: #f7f3ec;
-  --bg-elev: #fffdf9;
-  --bg-warm: #f1ebe1;
+  --bg: #f8f5f0;
+  --bg-elev: #fffdf8;
+  --bg-warm: #fdf8f0;
   --ink: #1c1914;
   --muted: #5c564c;
   --subtle: #8a8378;
@@ -47,7 +47,10 @@ html { scroll-behavior: smooth; -webkit-font-smoothing: antialiased; -moz-osx-fo
 html, body { margin: 0; padding: 0; }
 body {
   font-family: var(--font-body);
-  background: var(--bg);
+  background:
+    radial-gradient(1200px 620px at 8% -12%, rgb(201 162 39 / 0.16), transparent 55%),
+    radial-gradient(900px 520px at 110% 6%, rgb(201 162 39 / 0.10), transparent 50%),
+    var(--bg);
   color: var(--ink);
   font-size: var(--text-base);
   line-height: var(--leading);
@@ -94,9 +97,9 @@ a:focus-visible, button:focus-visible, summary:focus-visible {
 .center .lead { margin-inline: auto; }
 
 section { padding: var(--space-8) 0; }
-.band-cream { background: var(--bg-elev); }
-.band-warm { background: var(--bg-warm); }
-.band-paper { background: var(--bg); }
+.band-cream { background: rgb(253 248 240 / 0.78); }
+.band-warm { background: rgb(201 162 39 / 0.08); }
+.band-paper { background: transparent; }
 
 /* NAV */
 .nav {
@@ -196,8 +199,8 @@ section { padding: var(--space-8) 0; }
 .hero-media::after {
   content: ""; position: absolute; inset: 0;
   background:
-    linear-gradient(180deg, rgb(18 15 10 / 0.38) 0%, rgb(18 15 10 / 0.62) 100%),
-    linear-gradient(90deg, rgb(18 15 10 / 0.45) 0%, rgb(18 15 10 / 0.15) 55%, rgb(18 15 10 / 0.35) 100%);
+    linear-gradient(90deg, rgb(31 41 55 / 0.50) 0%, rgb(31 41 55 / 0.28) 48%, transparent 100%),
+    rgb(201 162 39 / 0.32);
 }
 .hero-copy { position: relative; z-index: 1; width: var(--wrap); text-align: center; padding: 5.5rem 0 4.5rem; }
 .hero h1 { color: #fff; max-width: 22ch; margin: 0 auto var(--space-5); }
