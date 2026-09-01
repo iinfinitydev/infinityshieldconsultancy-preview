@@ -30,6 +30,9 @@
     if (match) select.value = wanted;
   }
 
+  /* Coverage pins live in assets/images/uae-coverage.svg.
+     To add a city later, drop another pin group at its lon/lat. */
+
   var form = document.getElementById("consultancy-form");
   if (!form) return;
 

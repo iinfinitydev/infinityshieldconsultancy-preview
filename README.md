@@ -1,10 +1,10 @@
-# Infinity Shield Consultancy — draft preview
+# Infinity Shield Fire Safety Consultancy
 
-This is a **review copy** of the consultancy website.
+Static GitHub Pages site. No build step.
 
-- Live site (unchanged): https://iinfinitydev.github.io/infinityshieldconsultancy/
-- This preview: https://iinfinitydev.github.io/infinityshieldconsultancy-preview/
+Regenerate HTML from `/workspace/tools/generate_consultancy.py` after copy changes.
 
-Search engines are blocked (`noindex`). Do not treat this URL as the public site.
-
-When the draft is approved, copy the files into `infinityshieldconsultancy` and remove the robots noindex tag.
+Bandwidth notes:
+- No Tailwind CDN, no Font Awesome, no webfonts
+- Images resized to display size and encoded as WebP
+- Unused hero/email assets removed from the live tree
