@@ -1,3 +1,2 @@
 User-agent: *
-Allow: /
-Sitemap: https://iinfinitydev.github.io/infinityshieldconsultancy/sitemap.xml
+Disallow: /
