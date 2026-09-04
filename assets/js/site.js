@@ -83,14 +83,14 @@
         } else {
           showModal(
             "Send us an email instead.",
-            'The form could not be delivered just then. Please write to <a href="mailto:jay@infinityshieldfiresafety.ae">jay@infinityshieldfiresafety.ae</a>.'
+            'The form could not be delivered just then. Please write to <a href="mailto:info@infinityshieldfiresafety.ae">info@infinityshieldfiresafety.ae</a>.'
           );
         }
       })
       .catch(function () {
         showModal(
           "Send us an email instead.",
-          'The form could not be delivered just then. Please write to <a href="mailto:jay@infinityshieldfiresafety.ae">jay@infinityshieldfiresafety.ae</a>.'
+          'The form could not be delivered just then. Please write to <a href="mailto:info@infinityshieldfiresafety.ae">info@infinityshieldfiresafety.ae</a>.'
         );
       })
       .then(function () {
